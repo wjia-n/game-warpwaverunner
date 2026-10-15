@@ -83,6 +83,8 @@ const arcadeConfig = ArcadeConfig(
   fallDown: false,
   tip1Id: 'warpwaverunnercoffee',
   tip2Id: 'warpwaverunnercandy',
-  tip1Label: '💛 Buy me a coffee',
-  tip2Label: '💛 Buy me a candy',
+  tip1Label: '💛 Buy me a coffee for Warp Wave Runner',
+
+  tip2Label: '💛 Buy me a candy for Warp Wave Runner',
+
 );
