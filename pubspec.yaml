@@ -1,7 +1,7 @@
 name: warpwaverunner
 description: "Warp Wave Runner - surf warp waves"
 publish_to: 'none'
-version: 1.0.0+2
+version: 1.0.0+3
 environment:
   sdk: ^3.13.5
 
