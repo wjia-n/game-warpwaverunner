@@ -70,9 +70,9 @@ class _SupportScreenState extends State<SupportScreen> {
             child: Text(_thanks!, textAlign: TextAlign.center,
                 style: const TextStyle(fontFamilyFallback: const ['Noto Color Emoji'], color: Colors.amber, fontWeight: FontWeight.bold)),
           ),
-        _tipBtn(c.tip1Label, c.tip1Id, Colors.amber.shade700),
-        const SizedBox(height: 10),
         _tipBtn(c.tip2Label, c.tip2Id, Colors.white24),
+        const SizedBox(height: 10),
+        _tipBtn(c.tip1Label, c.tip1Id, Colors.amber.shade700),
         const SizedBox(height: 20),
         ElevatedButton.icon(
           icon: const Icon(Icons.share),
@@ -96,6 +96,7 @@ class _SupportScreenState extends State<SupportScreen> {
     width: double.infinity,
     child: ElevatedButton(
       style: ElevatedButton.styleFrom(backgroundColor: bg, foregroundColor: Colors.white,
+          elevation: 6, shadowColor: Colors.black54,
           padding: const EdgeInsets.symmetric(vertical: 16),
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14))),
       onPressed: () => _tip(productId, label),
